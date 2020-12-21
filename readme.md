@@ -19,6 +19,7 @@ Assuming a file `assets/template/template.ejs` is that you want to get the path.
 First add this plugin to rollup config:
 
 ```js
+// rollup.config.js
 const {filePath} = require("../../lib/index");
 
 export default {
@@ -33,9 +34,10 @@ export default {
 };
 ```
 
-Then feel free to use it:
+Then get the path:
 
 ```js
+// index.js
 import templatePath = require('assets/template/template.ejs')
 
 console.log(templatePath)

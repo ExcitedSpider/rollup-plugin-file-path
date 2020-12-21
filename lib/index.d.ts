@@ -1,5 +1,5 @@
 export declare type FilePathPluginOption = {
-    include?: string | string[];
+    include: string | string[];
     exclude?: string | string[];
 };
 export declare function filePath(options: FilePathPluginOption): {

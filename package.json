@@ -4,7 +4,7 @@
   "description": "A plugin to get file path by module resolve",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
   "author": "qefeng",
   "license": "ISC",
