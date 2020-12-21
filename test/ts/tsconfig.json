@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "lib": ["es6", "DOM"],
+    "moduleResolution": "node",
+    "strict": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "skipLibCheck": false,
+    "sourceMap": true,
+    "declaration": true,
+    "outDir": "dist"
+  },
+}

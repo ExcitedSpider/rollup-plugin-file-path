@@ -1,0 +1,18 @@
+{
+  "name": "rollup-plugin-file-path",
+  "version": "0.0.1",
+  "description": "A plugin to get file path by module resolve",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "qefeng",
+  "license": "ISC",
+  "dependencies": {
+    "@rollup/pluginutils": "^4.1.0"
+  },
+  "devDependencies": {
+    "rollup": "^2.35.1",
+    "typescript": "^4.1.3"
+  }
+}
